@@ -1,0 +1,35 @@
+/* Warna latar sidebar */
+.sidebar {
+    background-color: #007bff; /* Warna biru */
+    color: #ffffff; /* Warna teks putih */
+}
+
+/* Warna teks pada link */
+.sidebar .nav .nav-item .nav-link {
+    color: #ffffff; /* Warna teks untuk semua link */
+}
+
+/* Warna item sidebar saat aktif */
+.sidebar .nav .nav-item.active > .nav-link {
+    background-color: #0056b3; /* Biru gelap */
+    color: #ffffff; /* Teks tetap putih */
+    border-radius: 10px; /* Opsional, untuk sudut membulat */
+}
+
+/* Hover effect untuk link */
+.sidebar .nav .nav-item .nav-link:hover {
+    background-color: #0056b3; /* Biru gelap saat hover */
+    color: #ffffff;
+    border-radius: 10px; /* Membuat hover lebih menarik */
+}
+
+/* Penyesuaian icon menu */
+.sidebar .menu-icon {
+    color: #ffffff; /* Warna icon sidebar */
+}
+
+/* Judul menu sidebar */
+.sidebar .menu-title {
+    font-weight: bold;
+    color: #ffffff;
+}
