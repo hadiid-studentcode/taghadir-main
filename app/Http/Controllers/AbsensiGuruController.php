@@ -14,8 +14,8 @@ class AbsensiGuruController extends Controller
 
         $idGuru = $request->idGuru;
         $tanggal = date('Y-m-d');
-        // $waktu = date('H:i:s');
-        $waktu = "20:25:00";
+        $waktu = date('H:i:s');
+        // $waktu = "20:25:00";
 
 
         // Ambil pengaturan absensi pada tanggal tersebut

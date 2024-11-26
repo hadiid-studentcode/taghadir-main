@@ -230,10 +230,10 @@
             const lat = data[0].lat
             const lng = data[0].lng
 
-            // const posisiSaya = {
-            //     lat: lat,
-            //     lng: lng,
-            // };
+            const posisiSaya = {
+                lat: lat,
+                lng: lng,
+            };
 
             const posisiSaya = {
                 lat: 0.499015,
