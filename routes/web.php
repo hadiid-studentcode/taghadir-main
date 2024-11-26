@@ -50,6 +50,8 @@ Route::middleware(['auth', 'role:guru'])->group(function () {
     Route::post('/guru/absensi', [AbsensiGuruController::class, 'store'])->name('guru.absensi.store');
     Route::get('/guru/settings-akun', [UserController::class, 'index'])->name('guru.user.index');
 
+    Route::post('/guru/settings-akun/{user_id}', [UserController::class, 'updatePassword'])->name('guru.user.updatePassword');
+
 
     Route::get('/guru/logout', [LoginController::class, 'logout'])->name('guru.logout');
 
